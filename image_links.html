@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment Week 2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #444;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .content {
+      padding: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      margin: 5px;
+      padding: 5px;
+    }
+    .food-item {
+      margin-bottom: 20px;
+    }
+    .food-item img {
+      width: 25%;
+      height: 25%;
+      margin: 5px 0;
+      padding: 5px;
+    }
+    .technology-img {
+      margin: 5px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>This is Assignment for Web Development Week 2</h1>
+    <a href="cloud-computing.jpeg" class="technology-img"><img src="cloud-computing.jpeg" alt="Cloud computing image"></a>
+    <a href="data.jpeg"><img src="data.jpeg" alt="Big data image"></a>
+    <a href="AI.jpeg"><img src="AI.jpeg" alt="AI image"></a>
+  </header>
+  <nav>
+    <a href="#gallery">Gallery</a>
+    <a href="#menu">Menu</a>
+  </nav>
+  <div class="content" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <a href="trees.jpeg"><img src="trees.jpeg" alt="Image of forest trees"></a>
+      <a href="water-fall.jpeg"><img src="water-fall.jpeg" alt="Natural spring water"></a>
+      <a href="mountain.jpeg"><img src="mountain.jpeg" alt="Mountain image"></a>
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <div class="content" id="menu">
+    <h2>Menu</h2>
+    <div class="food-item">
+      <h3>Deliciously cooked jollof rice</h3>
+      <a href="jollof-rice.jpeg"><img src="jollof-rice.jpeg" alt="Tasty jollof rice"></a>
+    </div>
+    <div class="food-item">
+      <h3>Sweet yam porridge</h3>
+      <a href="yam-porridge.jpeg"><img src="yam-porridge.jpeg" alt="Sweet yam porridge"></a>
+    </div>
+    <div class="food-item">
+      <h3>Spaghetti the way you like it</h3>
+      <a href="spaghetti.jpeg"><img src="spaghetti.jpeg" alt="Spaghetti the tasty way"></a>
+    </div>
+    <!-- Add more food items as needed -->
+  </div>
+</body>
+</html>
